@@ -66,4 +66,5 @@ print(result_5)
 month = 9
 string = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 
-result_month = (string[8]).lower()
+result_month = (string[month - 1]).lower()
+print(result_month)
